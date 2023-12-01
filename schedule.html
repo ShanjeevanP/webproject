@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Music Event - Schedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 0;
+        }
+
+        /* Full-height sidebar */
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            background-color: #000000; 
+        }
+
+        .sidebar a {
+            color: #000000; 
+        }
+
+        
+        .main-content {
+            margin-left: 200px; 
+        }
+
+        
+        .schedule-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #000000; 
+        }
+
+        
+        .buy-ticket-btn {
+            background-color: #000000; 
+            color: #ffffff; 
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s; 
+        }
+
+        .buy-ticket-btn:hover {
+            background-color: #808080; 
+            color: #000000; 
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Music Event</a>
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sign out</a>
+        </li>
+    </ul>
+</header>
+
+<!-- Sidebar (main navigation) -->
+<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="schedule.html">
+                    Schedule
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">
+                    Contact
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="event-galleries.html">
+                    Event Galleries
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main content -->
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-content">
+    <!-- Your page content goes here -->
+    <h1 class="mt-5">Event Schedule</h1>
+
+    <!-- Schedule Items -->
+    <div class="schedule-item">
+        <h2>Concert 1</h2>
+        <p>Date: December 15, 2023</p>
+        <p>Time: 7:00 PM</p>
+        <p>Venue: Concert Hall</p>
+        <a href="#" class="buy-ticket-btn">Buy Tickets</a>
+    </div>
+
+    <div class="schedule-item">
+        <h2>Concert 2</h2>
+        <p>Date: December 20, 2023</p>
+        <p>Time: 8:00 PM</p>
+        <p>Venue: Arena</p>
+        <a href="#" class="buy-ticket-btn">Buy Tickets</a>
+    </div>
+
+    <div class="schedule-item">
+        <h2>Concert 3</h2>
+        <p>Date: December 25, 2023</p>
+        <p>Time: 6:30 PM</p>
+        <p>Venue: Outdoor Stage</p>
+        <a href="#" class="buy-ticket-btn">Buy Tickets</a>
+    </div>
+
+    <div class="schedule-item">
+        <h2>Concert 4</h2>
+        <p>Date: December 30, 2023</p>
+        <p>Time: 9:00 PM</p>
+        <p>Venue: Ballroom</p>
+        <a href="#" class="buy-ticket-btn">Buy Tickets</a>
+    </div>
+</main>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
